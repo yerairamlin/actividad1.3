@@ -1,8 +1,30 @@
 <!DOCTYPE html>
-<html><body>
-<h1>Módulos DAW</h1>
-<div>Desarrollo Web en Entorno Cliente</div>
-<div>Desarrollo Web en Entorno Servidor</div>
-<div>Lenguajes de marcas</div>
-<div>Bases de Datos</div>
-</body></html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dawAct1.3 - Módulos DAW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Módulos de Desarrollo de Aplicaciones Web</h1>
+    
+    <div class="modulo">Despliegue de Aplicaciones Web</div>
+    <div class="modulo">Desarrollo Web en Entorno Cliente</div>
+    <div class="modulo">Desarrollo Web en Entorno Servidor</div>
+    <div class="modulo">Bases de Datos</div>
+    <div class="modulo">Sistemas Informáticos</div>
+    <div class="modulo">Lenguajes de Marcas</div>
+
+    <button onclick="alert('¡GitHub Pages funciona con JavaScript!')">¡Haz clic!</button>
+
+    <p><a href="sobre.html" style="color: yellow;">Ir a Sobre mí</a></p>
+
+    <script>
+        console.log("JavaScript cargado desde GitHub Pages");
+        document.querySelector('button').addEventListener('click', () => {
+            document.body.style.background = "#" + Math.floor(Math.random()*16777215).toString(16);
+        });
+    </script>
+</body>
+</html>
